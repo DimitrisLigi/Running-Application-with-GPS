@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        google()
+        //noinspection JcenterRepositoryObsolete
+        jcenter() // Warning: this rep
+        // ository is going to shut down soon
+        maven { url "https://jitpack.io" }
+
+    }
+}
+rootProject.name = "Running App MVVM"
+include ':app'
