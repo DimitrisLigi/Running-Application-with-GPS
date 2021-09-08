@@ -6,7 +6,7 @@ dependencyResolutionManagement {
         //noinspection JcenterRepositoryObsolete
         jcenter() // Warning: this rep
         // ository is going to shut down soon
-        maven { url "https://jitpack.io" }
+        maven { url "https://jitpack.io"}
 
     }
 }
